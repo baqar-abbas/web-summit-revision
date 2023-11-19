@@ -98,6 +98,12 @@ header {
   color: #272a31;
 }
 
+.list2 li a:hover:not(.border-link) {
+  text-decoration: underline;
+  text-decoration-color: #ec5342c7;
+  text-decoration-thickness: 3px;
+}
+
 .border-link {
   border: 5px solid #ec5242;
   padding: 8px 8px;
