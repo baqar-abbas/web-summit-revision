@@ -16,6 +16,10 @@ body {
    display: none;
   }
 
+  .imageone {
+    display: none;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -44,11 +48,97 @@ body {
     color: #fff;
   }
 
+  /* .nav-menu-desktop2 {
+    display: flex;
+    
+  } */
+  
+  
+
+  /* .list2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 60px;
+  } */
+
+  /* .list2 li {
+    padding: 25px;
+    align-self: center;
+  } */
+
+  /* .list2 li a {
+    text-decoration: none;
+    color: #272a31;
+  } */
+
+  /* .summit-logo {
+    position: relative;
+    left: 80px;
+  } */
+
+  /* .nav-links {
+    position: relative;
+    left: 465px;
+  } */
+
+  .navlink-desktop {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+  }
+
+  .logo-div {
+    margin-left: 90px;
+    /* display: flex; */
+  }
+
+  .links-div {
+    margin-right: 60px;
+  }
+
+  .logolink {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .list2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 60px;
+  }
+
+  .list2 li {
+    padding: 25px;
+    align-self: center;
+  }
+
+  .list2 li a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .border-link {
+    border: 5px solid #ec5242;
+    padding: 8px 8px;
+  }
+
   /* Mobile version of the website */
 
   @media screen and (max-width: 768px) {
 
     .nav-menu-desktop {
+        display: none;
+      }
+
+      .navlink-desktop {
         display: none;
       }
 
@@ -61,6 +151,7 @@ body {
     }
   
     .imageone {
+      display: block;
       width: 60px;
       height: 60px;
       cursor: pointer;
@@ -73,11 +164,12 @@ body {
       }
 
     .mobile-menu {
-        display: none;
+        display: flex;
         flex-direction: row-reverse;
-        background: #e926102f;
+        background: #776b5d57;
         min-height: 100vh;
-        width: 100vw;
+        /* width: 100vw; */
+        width: 0;
         justify-content: space-between;
         position: fixed;
         top: 0;

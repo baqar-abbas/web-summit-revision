@@ -6,14 +6,16 @@ const cross = document.querySelector("#cross");
 const hamburger = document.querySelector(".imageone");
 
 hamburger.addEventListener("click", (event) => {
-    mobileMenu.style.display = "flex";
+    // mobileMenu.style.display = "flex";
+    mobileMenu.style.width = "100vw";
     navMenu.style.display = "none";
     event.preventDefault();
 })
 
 const menuClose = () => {
     navMenu.style.display = "block";
-    mobileMenu.style.display = "none";
+    // mobileMenu.style.display = "none";
+    mobileMenu.style.width = "0vw";
 }
 
 cross.addEventListener("click", menuClose);
