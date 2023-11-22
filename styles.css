@@ -144,6 +144,7 @@ header {
     font-weight: 900;
     background-image: linear-gradient(to bottom right, red, yellow);
     background-size: 100%;
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: #ec0e0e4f;
   }
@@ -172,6 +173,72 @@ header {
     color: #272a31;
   }
 
+  .cover-program-desktop {
+    background-image: url('./images/patternbg.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-color: rgb(39, 42, 50);
+    padding: 5px;
+    width: 100%;
+    height: 450px;
+  }
+
+  .program-list-desktop {
+    text-align: center;
+  }
+
+  .program-list-desktop h2 {
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .hr {
+    width: 30px;
+    border-color: #ec5242;
+    margin-bottom: 16px;
+  }
+
+  .desktop-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-program-desktop {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 5px;
+    padding: 0 10px;
+    height: 250px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 16%;
+  }
+
+  .bg-program-desktop li h3 {
+    color: #ec5242;
+    font-size: 16px;
+    padding-left: 2px;
+    margin-left: 2px;
+    width: auto;
+  }
+
+  .bg-program-desktop li p {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 2px;
+    padding: 2px;
+  }
+
+  .whole-link {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+
 /* Mobile version of the website */
 
 @media screen and (max-width: 768px) {
@@ -184,6 +251,10 @@ header {
   }
 
   .headlinedesktop {
+    display: none;
+  }
+
+  .cover-program-desktop {
     display: none;
   }
 
@@ -269,6 +340,7 @@ header {
     font-weight: 900;
     background-image: linear-gradient(to bottom right, red, yellow);
     background-size: 100%;
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: #ec0e0e4f;
   }
