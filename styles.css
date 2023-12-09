@@ -243,6 +243,57 @@ header {
   margin-top: 30px;
 }
 
+.featuredh {
+  text-align: center;
+  color: #272a31;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 35px;
+}
+
+.hr1 {
+  width: 30px;
+  border-color: #ec5242;
+  margin-bottom: 16px;
+}
+
+.featured-speakers {
+  position: relative;
+  top: 8px;
+  left: 8px;
+  width: 95px;
+  height: 100px;
+}
+
+table {
+  width: 80%;
+  position: relative;
+  left: 110px;
+}
+
+.top-speaker1 {
+  width: 38%;
+}
+
+td {
+  padding: 15px;
+}
+
+.featured-table {
+  text-align: left;
+}
+
+.see-more-desktop {
+  border: 1px solid #272a31;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 40%;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 400px;
+}
+
 /* Mobile version of the website */
 
 @media screen and (max-width: 768px) {
