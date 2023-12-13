@@ -9,3 +9,150 @@ body {
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
 }
+
+/* Desktop version of the About page */
+
+.imageone-about {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Navbar */
+nav.nav-menu-desktop-about {
+  display: flex;
+  background-color: #272a31;
+  justify-content: flex-end;
+  padding-right: 54px;
+}
+
+.list-about {
+  display: flex;
+  color: #fff;
+  list-style-type: none;
+}
+
+.list-about li {
+  padding-right: 44px;
+}
+
+.header-icon-about {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav.nav-menu-desktop2-about {
+  display: flex;
+}
+
+.logolink-about {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 6%;
+  left: 7%;
+}
+
+.list2-about {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.list2-about li {
+  padding: 25px;
+  align-self: center;
+}
+
+.list2-about li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.links-div {
+  display: flex;
+  margin-right: 50px;
+}
+
+.border-link {
+  border: 5px solid #ec5242;
+  padding: 8px 8px;
+}
+
+.nav-links-about:hover:not(.not-border-link) {
+  text-decoration: underline;
+  text-decoration-color: #ec5342c7;
+  text-decoration-thickness: 3px;
+}
+
+/* Mobile version of the About page */
+
+@media screen and (max-width: 768px) {
+  .nav-menu-desktop-about {
+    display: none !important;
+  }
+
+  .nav-menu-dekhtop2-about {
+    display: none;
+  }
+
+  .nav-menu-about {
+    background-color: #fff;
+    background-image: url('./images/topbg.png');
+    background-size: cover;
+    height: 120px;
+  }
+
+  .imageone-about {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .mobile-menu {
+    min-height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background: #e926102f;
+    backdrop-filter: blur(10px);
+    transition: 0.6s;
+  }
+
+  .mobile-menu ul {
+    list-style-type: none;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mobile-menu ul li {
+    padding: 10% 5%;
+  }
+
+  .mobile-menu li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  #cross {
+    height: 60px;
+    width: 75px;
+  }
+}
