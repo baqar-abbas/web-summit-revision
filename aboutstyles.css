@@ -20,7 +20,6 @@ body {
   display: none;
 }
 
-
 /* Navbar */
 nav.nav-menu-desktop-about {
   display: flex;
@@ -52,7 +51,7 @@ nav.nav-menu-desktop2-about {
   width: 90px;
   height: 90px;
   position: absolute;
-  top: 7%;
+  top: 6%;
   left: 7%;
 }
 
