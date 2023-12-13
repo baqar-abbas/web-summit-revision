@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Desktop version of the About page*/
+/* Desktop version of the About page */
 
 .imageone-about {
   display: none;
@@ -18,7 +18,6 @@ body {
 
 .mobile-menu {
   display: none;
-
 }
 
 
@@ -92,7 +91,7 @@ nav.nav-menu-desktop2-about {
   text-decoration-thickness: 3px;
 }
 
-/* Mobile version of the About page*/
+/* Mobile version of the About page */
 
 @media screen and (max-width: 768px) {
   .nav-menu-desktop-about {
@@ -116,45 +115,45 @@ nav.nav-menu-desktop2-about {
     cursor: pointer;
     display: block;
   }
-  
-.mobile-menu {
-  min-height: 100vh;
-  width: 100vw;
-  display: none;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  z-index: 20;
-  background: #e926102f;
-  backdrop-filter: blur(10px);
-  transition: 0.6s;
-}
 
-.mobile-menu ul {
-  list-style-type: none;
-  margin: 10% 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+  .mobile-menu {
+    min-height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background: #e926102f;
+    backdrop-filter: blur(10px);
+    transition: 0.6s;
+  }
 
-.mobile-menu ul li {
-  padding: 10% 5%;
-}
+  .mobile-menu ul {
+    list-style-type: none;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.mobile-menu li a {
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
+  .mobile-menu ul li {
+    padding: 10% 5%;
+  }
 
-#cross {
-  height: 60px;
-  width: 75px;
-}
+  .mobile-menu li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  #cross {
+    height: 60px;
+    width: 75px;
+  }
 }
