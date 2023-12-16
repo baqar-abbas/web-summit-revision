@@ -90,6 +90,81 @@ nav.nav-menu-desktop2-about {
   text-decoration-thickness: 3px;
 }
 
+.headlinedesktop-about {
+  display: block;
+  background-color: #d3d3d3;
+  height: auto;
+}
+
+.topdesktop-about {
+  background-image: url('./images/topbg.png');
+  background-size: cover;
+  height: 200px;
+}
+
+.topheadingdesktop-about {
+  color: orangered;
+  font-size: 34px;
+  font-weight: 400;
+  position: relative;
+  top: 150px;
+  left: 250px;
+}
+
+.topheadingdesktopdiv-about {
+  background-image: url('./images/bgimagedesign.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 350px 0;
+  background-color: #d3d3d3;
+  position: relative;
+  left: 200px;
+  padding: 45px;
+  width: 100%;
+  height: 545px;
+}
+
+.topheadingh1desktop-about {
+  font-size: 50px;
+  display: block;
+  color: red;
+  font-weight: 900;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #ec0e0e4f;
+}
+
+.paradivdesktop-about {
+  background-color: #fff;
+  border: 1px solid darkgrey;
+  padding: 10px;
+  width: 70%;
+}
+
+.headlineparadesktop-about {
+  color: #272a31;
+}
+
+
+.datedivdesktop-about {
+  width: 100%;
+}
+
+.dateheadingdesktop-about {
+  color: #272a31;
+  font-weight: 600;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.locationparadesktop-about {
+  color: #272a31;
+}
+
 /* Mobile version of the About page */
 
 @media screen and (max-width: 768px) {
