@@ -132,7 +132,9 @@ nav.nav-menu-desktop2-about {
   background-image: linear-gradient(to bottom right, red, yellow);
   background-size: 100%;
   -webkit-background-clip: text;
+  /* stylelint-disable */
   background-clip: text;
+  /* stylelint-enable */
   -webkit-text-fill-color: #ec0e0e4f;
 }
 
@@ -146,7 +148,6 @@ nav.nav-menu-desktop2-about {
 .headlineparadesktop-about {
   color: #272a31;
 }
-
 
 .datedivdesktop-about {
   width: 100%;
