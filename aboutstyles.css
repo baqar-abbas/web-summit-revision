@@ -242,7 +242,7 @@ nav.nav-menu-desktop2-about {
     width: 75px;
   }
 
-  .headline-about  {
+  .headline-about {
     display: block;
     background-image: url('./images/bgimagedesign.png');
     background-size: contain;
@@ -278,7 +278,7 @@ nav.nav-menu-desktop2-about {
     padding: 10px;
     width: 100%;
   }
-  
+
   .headlinepara-about {
     color: #272a31;
   }
@@ -286,14 +286,13 @@ nav.nav-menu-desktop2-about {
   .datediv-about {
     width: 100%;
   }
-  
+
   .dateheading-about {
     color: #272a31;
     font-weight: 600;
   }
-  
+
   .locationpara-about {
     color: #272a31;
   }
-  
 }
