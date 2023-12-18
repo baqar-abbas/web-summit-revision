@@ -170,6 +170,55 @@ nav.nav-menu-desktop2-about {
   color: #272a31;
 }
 
+.logo-section {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logosection-heading {
+  text-align: center;
+  color: #272a31;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+.hr {
+  width: 30px;
+  border-color: #ec5242;
+  margin-bottom: 16px;
+}
+
+.logosection-para {
+  color: #272a31;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.5;
+  margin: 15px 20px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.logo-specifics {
+  width: 250px;
+  height: 250px;
+}
+
+.logo-div {
+  padding: 0;
+  margin-top: 15px;
+  border: #272a31 1px solid;
+  align-self: center;
+  text-align: center;
+  width: 40%;
+}
+
+
 /* Mobile version of the About page */
 
 @media screen and (max-width: 768px) {
@@ -294,5 +343,9 @@ nav.nav-menu-desktop2-about {
 
   .locationpara-about {
     color: #272a31;
+  }
+
+  .logo-div {
+    width: 80%;
   }
 }
