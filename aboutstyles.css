@@ -218,6 +218,34 @@ nav.nav-menu-desktop2-about {
   width: 40%;
 }
 
+.pastproject-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pastproject-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.summit22 {
+  align-self: center;
+  width: 320px;
+  height: 250px;
+  margin-left: 8%;
+}
+
+.summit20 {
+  align-self: center;
+  margin-top: 10px;
+  width: 320px;
+  height: 250px;
+  margin-left: 8%;
+}
+
 /* Mobile version of the About page */
 
 @media screen and (max-width: 768px) {
@@ -346,5 +374,17 @@ nav.nav-menu-desktop2-about {
 
   .logo-div {
     width: 80%;
+  }
+
+  .summit22 {
+    width: 420px;
+    height: 350px;
+  }
+
+  .summit20 {
+    margin-top: 10px;
+    float: left;
+    width: 420px;
+    height: 350px;
   }
 }
