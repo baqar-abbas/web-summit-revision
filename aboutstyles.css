@@ -233,16 +233,16 @@ nav.nav-menu-desktop2-about {
 
 .summit22 {
   align-self: center;
-  width: 320px;
-  height: 250px;
+  width: 420px;
+  height: 350px;
   margin-left: 8%;
 }
 
 .summit20 {
   align-self: center;
   margin-top: 10px;
-  width: 320px;
-  height: 250px;
+  width: 420px;
+  height: 350px;
   margin-left: 8%;
 }
 
@@ -376,15 +376,27 @@ nav.nav-menu-desktop2-about {
     width: 80%;
   }
 
+  .pastproject-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
   .summit22 {
-    width: 420px;
-    height: 350px;
+    /* align-self: center; */
+    width: 320px;
+    height: 250px;
+    margin-left: 2%;
   }
 
   .summit20 {
-    margin-top: 10px;
-    float: left;
-    width: 420px;
-    height: 350px;
+    /* align-self: center; */
+    clear: left;
+    margin-top: 2px;
+    width: 320px;
+    height: 250px;
+    margin-left: 2%;
   }
 }
