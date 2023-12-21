@@ -24,6 +24,10 @@ body {
   display: none;
 }
 
+.partner-section {
+  display: none;
+}
+
 /* Navbar */
 nav.nav-menu-desktop-about {
   display: flex;
@@ -398,5 +402,24 @@ nav.nav-menu-desktop2-about {
     width: 320px;
     height: 250px;
     margin-left: 2%;
+  }
+
+  .partner-section {
+    display: block;
+    background-color: rgb(39, 42, 50);
+    height: 550px;
+  }
+
+  .partner-heading {
+    color: #fff;
+  }
+
+  .partner-div {
+    text-align: center;
+  }
+
+  .companies {
+    width: 150px;
+    height: 150px;
   }
 }
