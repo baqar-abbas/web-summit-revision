@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [BAQAR's PORTFOLIO] <a name="about-project"></a>
+# 📖 [WEB SUMMIT] <a name="about-project"></a>
 
-> **[PORTFOLIO-APP]** This is a Mobile and desktop responsive web app. This project is made on Web Summit 2023 using html, css and JS best practices. The Original design idea is by Cindy Shin in Behance" Thanks ❤️ to Cindy Shin for Creating such a beautiful design. 
+> **[WEB-SUMMIT-APP]** This is a Mobile and desktop responsive web app. This project is made on Web Summit 2023 using html, css and JS best practices. The Original design idea is by Cindy Shin in Behance" Thanks ❤️ to Cindy Shin for Creating such a beautiful design. 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
